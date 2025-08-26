@@ -2,7 +2,18 @@ body{
     background-color: blueviolet;
 }
 
-h1 {
+#title {
     font-size: 32px;
     color: antiquewhite;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
 }
