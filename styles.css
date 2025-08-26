@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: blueviolet !important;
 }
 
 #title {
@@ -16,4 +16,12 @@ body{
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
+}
+
+.carousel-control-prev {
+  left: 150px !important;   /* Mueve la flecha izquierda hacia adentro */
+}
+
+.carousel-control-next {
+  right: 150px !important;  /* Mueve la flecha derecha hacia adentro */
 }
